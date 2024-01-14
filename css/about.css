@@ -1,0 +1,56 @@
+header {
+    width: 100%;
+    height: 50vh;
+    background-image:
+      linear-gradient(to bottom, rgba(86, 222, 235, 0.95), rgba(50, 144, 237, 0.815)),
+      url(/image/technology-circle-blue-background-digital-transformation-concept.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-size: 100% auto;
+    position: relative;
+}
+.sommes {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: #fff;
+}
+.sommes h1{
+    font-size: 50px !important;
+}
+
+.video {
+    width: 30rem;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .video {
+        width: 43rem !important;
+    }
+}
+@media (max-width: 425px) {
+    .video {
+        width: 24rem !important;
+    }
+}
+@media (max-width: 425px) {
+    header {
+        height: 30vh;
+    }
+    .sommes h1{
+        font-size: 20px !important;
+    }
+}
+@media (max-width: 375px) {
+    .video {
+        width: 22rem !important;
+    }
+}
+
+#equipe:hover {
+    transition-duration: 1s;
+    transform: scale(1.15, 1.15);
+}

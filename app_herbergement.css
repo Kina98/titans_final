@@ -1,0 +1,552 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+.flech{
+  border: 1px solid #A32EFF;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+  display: flex;
+  width: 6rem;
+  margin-left: 1rem;
+  margin-top: 0.55rem;
+
+}
+h4{
+    color: #603F8B;
+}
+a{
+    text-decoration: none;
+}
+.input-group{
+    background-color: transparent;
+    border: 1px solid #A32EFF;
+    border-radius: 5px;
+}
+.title{
+  display: flex;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+margin-left: 0;
+margin-right: 0;
+  text-align: center;
+  background-color: #FFDD57;
+}
+.decimal{
+  position: absolute;
+}
+.mois{
+  font-size: 10px;
+}
+.content{
+  position: relative;
+  max-width: 1090px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+ .content .card{
+  background: #fff;
+  width: calc(33% - 20px);
+  text-align: center;
+  padding: 15px 15px  45px 15px; 
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  margin-top:1.5rem ;
+}
+.recommand{
+  color: white;
+  left: 35.7rem;
+  top: 10.5rem;
+  background-color: blue;
+  width: 9rem;
+ display: flex;
+ justify-content: space-between;
+ position: absolute;
+}
+.triangle{  
+  border:12px solid;
+  border-color: transparent transparent transparent #fff
+}
+.fe{
+  padding-left: 0;
+  margin-left: 0;
+}
+.content .card .top{
+  height: 150px;
+  color: #fff;
+  padding: 16px 0 0 0 ;
+  border-radius: 15px;
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 25% 100%, 0 75%);
+  
+}
+
+.content .card .top1{
+  background:#A32EFF;
+  width:100%;
+  height:10em;
+ position:relative;
+ border-radius: 15px;
+ margin: auto;
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 25% 100%, 0 75%);
+  
+}
+.two .flech{
+border-color: #00FF00;
+}
+.three .flech{
+  border-color:#FFD700 ;
+  }
+.content .card .top3{
+  background-color: #FFD700;
+  width:100%;
+  height:10em;
+ position:relative;
+ border-radius: 15px;
+  margin: auto;
+  -webkit-clip-path:polygon(0 0, 100% 0, 100% 75%, 25% 100%, 0 75%);
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 25% 100%, 0 75%);
+
+  
+}
+.content .card .top2{
+  background-color: #00FF00;
+  width:100%;
+  height:10em;
+ position:relative;
+ border-radius: 15px;
+ margin: auto;
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 25% 100%, 0 75%);
+}
+
+.content .card .top .title{
+ font-size: 27px;
+ font-weight: 600;
+}
+.content .card .top .price-sec{
+  margin-top: 12px;
+  font-weight: 600;
+}
+.content .card .top .price{
+  font-size: 45px;
+}
+.dollar{
+  font-size: 45px;
+}
+.content .card .title{
+  font-size: 16px;
+  margin-top: 20px;
+}
+.content .card .details .one{
+  margin-top: 25px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+.head{
+    background-image: url(images/happy-young-african-american-man-with-tablet-isolated-yellow-studio-background-facial-expression-beautiful-male-half-lenght-portrait-concept-human-emotions-facial-expression.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 50vh;
+  
+}
+.inclus {
+    position: relative;
+}
+.inclus p{
+     color: #603F8B;
+}
+   .inclus  img{
+   
+       
+    }
+
+.inclus div div{
+
+   margin: auto;
+    top: 2px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #5C00A3;
+    opacity: 0.4;
+  
+}
+.inclus svg{
+    width: 2rem;
+    color: #fff;
+    font-size: large;
+    z-index: 3;
+  
+  margin: auto;
+    
+}
+.content .card button{
+  outline: none;
+  height: 42px;
+  color: #603F8B;
+  margin-top: 30px;
+  border-radius: 2rem;
+  font-size: 18px;
+  width: 60%;
+  display: block;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+.btn{
+  display: flex;
+justify-content: center;
+color: #fff;
+}
+.content .one .top{
+  background: #603F8B;
+}
+ul{
+    list-style: none;
+}
+ul li{
+padding: 1rem;
+text-align: justify;
+color: #603F8B;
+
+}
+.content .one button{
+  background: white;
+  border:2px solid #603F8B;
+  font-size: large;
+}
+.content .three .top{
+  background: #D1B000;
+}
+.content .three button{
+  color: #D1B000;
+  background: white;
+  border: 2px solid #D1B000;
+}
+.content .two .top{
+  background: #116530;
+}
+.content .two button{
+  background-color: white;
+  border: 2px solid #116530;
+  color: #116530;
+}
+.content button:hover {
+  filter: brightness(90%);
+}
+.content .one ::selection{
+background: #8af5b6;
+}
+.content .two ::selection{
+background:  #f2b08c;
+}
+.content .three ::selection{
+background: #d0f9fb;
+}
+p{
+
+ 
+    padding: 1rem;
+    text-align: justify;
+
+    width: 50%;
+}
+.h6{
+    background-color: #603F8B;
+}
+h6{
+    
+    text-align: justify;
+    color: #fff;
+    padding: 1rem;
+    
+}
+@media (max-width:1000px) {
+   .content .card{
+    background: #fff;
+    width: calc(50% - 20px);
+    margin-bottom: 30px;
+}
+}
+@media (max-width:715px) {
+ .content .card{
+    width: 100%;
+}
+p{
+
+    width: 18rem;
+}
+.inclus  img{
+
+
+}
+
+.inclus div div{
+
+
+
+}
+.btn-outline-success{
+    margin-top: 1rem;
+}
+
+}
+
+/* ==================Style de la nav====================== */
+
+nav {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 80%;
+  background-color: #f1f1f1;
+  position: relative;
+  margin-top: 5px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.10) 0px 15px 25px, rgba(0, 0, 0, 0.01) 0px 5px 10px;
+}
+
+.logo-ninetech {
+  width: 107px;
+  height: auto;
+}
+
+.nav>.nav-header {
+  display: inline;
+}
+
+.nav>.nav-header>.nav-title {
+  display: inline-block;
+  padding: 5px 0px 5px 30px;
+}
+
+.nav>.nav-btn {
+  display: none;
+}
+
+.nav>.nav-links {
+  display: inline;
+  float: right;
+  font-size: 14px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  background-color: transparent;
+}
+
+.nav>.nav-links>a {
+  display: inline-block;
+  padding: 7px 10px 7px 10px;
+  text-decoration: none;
+  color: #1c3c7a;
+  border-radius: 10px;
+  box-shadow: 0px 80px 50px -30px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease 0s;
+}
+
+.nav>.nav-links>.link-pages:hover {
+  background-color: #28c8e4;
+  box-shadow: 0px 15px 20px rgba(28, 135, 223, 0.83);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.nav>.nav-links>.link-page-abonnement button {
+  height: 2rem;
+  width: auto;
+  padding: 2px 4px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #2ecae5;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.nav>.nav-links>.link-page-abonnement button:hover {
+  background-color: #2ecae5;
+  box-shadow: 0px 15px 35px rgba(23, 91, 238, 0.83);
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+
+.btn-grad:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.nav>#nav-check {
+  display: none;
+}
+
+@media (max-width:1024px) {
+  .nav>.nav-links {
+    display: inline;
+    float: right;
+    font-size: 12px;
+    letter-spacing: 1px;
+
+  }
+}
+
+@media (max-width:1300px) {
+  .nav>.nav-links {
+    font-size: 10px;
+    letter-spacing: 0px;
+  }
+}
+
+@media (max-width:961px) {
+  .nav>.nav-links {
+    font-size: 10px;
+    letter-spacing: 0px;
+  }
+
+  .logo-ninetech {
+    width: 80px;
+    height: auto;
+  }
+
+  .nav>.nav-links>.link-page-abonnement button {
+    height: 1.8rem;
+    font-size: 10px;
+    width: auto;
+    padding: 2px 3px;
+
+  }
+
+  .nav {
+    width: 90%;
+  }
+}
+
+@media (max-width:852px) {
+  nav {
+    align-items: start;
+  }
+
+  .nav {
+    width: 100%;
+    border-radius: 0;
+    margin-top: 0;
+  }
+
+  .logo-ninetech {
+    width: 100px;
+    height: auto;
+  }
+
+  .nav>.nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+
+  .nav>.nav-btn>label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+
+  .nav>.nav-btn>label:hover,
+  .nav #nav-check:checked~.nav-btn>label {
+    background-color: rgba(79, 202, 227, 0.95);
+  }
+
+  .nav>.nav-btn>label>span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid black;
+  }
+
+  .nav>.nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+
+  .nav>.nav-links>a {
+    display: block;
+    width: 100%;
+    height: 2.7rem;
+    font-size: 16px;
+  }
+
+  .nav>#nav-check:not(:checked)~.nav-links {
+    height: 0px;
+  }
+
+  .nav>#nav-check:checked~.nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+
+  .nav>.nav-links>.link-page-abonnement button {
+    height: 2.2rem;
+    width: 6rem;
+  }
+}
+/* ========================Fin============================= */
+.launch{height: 50px}.close{font-size: 21px;cursor: pointer}
+.modal-body{height: 630px;
+  background: hsla(217, 100%, 50%, 1);
+
+  background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );
+border-radius: 5px;}
+.nav-tabs{border:none !important}
+.nav-tabs .nav-link.active{color: #495057;
+  background-color: #fff;
+  border-color: #ffffff #ffffff #fff;
+  border-top: 3px solid blue !important}
+  .nav-tabs .nav-link{margin-bottom: -1px;border: 1px solid transparent;border-top-left-radius: 0rem;border-top-right-radius: 0rem;
+    border-top: 3px solid #eee;font-size: 20px}.nav-tabs .nav-link:hover{border-color: #e9ecef #ffffff #ffffff}.nav-tabs{display: table !important;width: 100%}.nav-item{display: table-cell}.form-control{border-bottom: 1px solid #eee !important;border:none;font-weight: 600}.form-control:focus{color: #495057;background-color: #fff;border-color: #8bbafe;outline: 0;box-shadow: none}.inputbox{position: relative;margin-bottom: 20px;width: 100%}.inputbox span{position: absolute;top:7px;left: 11px;transition: 0.5s}.inputbox i{position: absolute;top: 13px;right: 8px;transition: 0.5s;color: #3F51B5}input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{-webkit-appearance: none;margin: 0}
+    .inputbox input:focus~span{transform: translateX(-0px) translateY(-15px);font-size: 12px}
+    .inputbox input:valid~span{transform: translateX(-0px) translateY(-15px);
+  font-size: 12px}.pay button{height: 47px;
+  border-radius: 37px}

@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Quicksand:wght@300;400&display=swap');
+ul{
+list-style: none;
+display: flex;
+justify-content: center;
+}
+ul li {
+    margin: 10px;
+    font-size: 25px;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+#img{
+    position: relative;
+    top: 5rem;
+    width: 60%;
+    border-right: 10px solid #bb328d;
+    border-bottom: 10px solid #bb328d;
+    border-radius: 90%;
+}
+.favicon{
+    background-color: #c29dc4;
+    padding: 2rem;
+   text-align: center;
+}
+.sociaux{
+    padding-top: 14px;
+}
+p{
+    width: 25rem;
+   font-size: 1rem;
+    margin: auto;
+}
+.section{
+    border: 15px solid red;  
+}
+.corps-5{
+  text-align: center;
+    margin: auto;
+}
+#text{
+    position: relative;
+    margin: auto;
+    color: black;
+ font-weight: bold;
+}
+p{
+ font-size: 1.1rem;
+ color: black;
+ font-weight: bold;
+ width: 320px;
+}
+.corps-5{
+    position: relative;
+}
+h3{
+    padding-top: 3rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+h6{
+   margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 1rem;  
+}
+
+
