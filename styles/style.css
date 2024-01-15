@@ -8,17 +8,16 @@
 }
 
 
-header {
+header{
   width: 100%;
-  height: 100vh;
   background-image:
-    linear-gradient(to bottom, rgba(86, 222, 235, 0.30), rgba(23, 91, 238, 0.30)),
-    url(/images/avatar-background.jpeg);
+    linear-gradient(to bottom, rgba(56, 250, 221, 0.250), rgba(6, 116, 235, 0.740)),
+    url(/images/developpement-applications/technology-abstract-background-with-particle-lines.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  background-size: 100% auto;
   height: 100vh;
   position: relative;
 }
@@ -50,7 +49,9 @@ nav {
   width: 107px;
   height: auto;
 }
-
+.pngg{
+  width: 55%;
+}
 .nav>.nav-header {
   display: inline;
 }
@@ -467,7 +468,21 @@ display: flex;
 .bas-header-gauche{
 width: 50%;
 height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: start;
+color: white;
 /* background-color: blue; */
+}
+.bas-header-gauche p {
+  width: 45%;
+  margin-top: 15px;
+}
+.bas-header-gauche h3{
+  width: 50%;
+  text-align: center;
 }
 .bas-header-droite{
   width: 50%;
@@ -493,7 +508,7 @@ height: 100%;
   width: 100%;
  height: 5rem;
  text-align: center;
- color: #1c3c7a;
+ color: #f1f1f1;
 }
 
 .service-card-home {
@@ -541,13 +556,12 @@ height: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #0b2353;
-  background-color: #08b2cb;
-  padding: 50px 0px;
+  color: #f1f1f1;
+  background-color: #1F6E8C;
+  padding: 100px 0px;
 }
 .slide-home-texte p{
-  width: 70%;
- 
+  width: 60%;
 }
 .slide-home-texte img{
   width: 20rem;
@@ -645,7 +659,7 @@ transition:.6s;
   }
   .service-card-home {
     width: 100%;
-    height: 100%;
+    height: 50%;
    background-color: linear-gradient(to bottom, rgba(86, 222, 235, 0.95), rgba(23, 91, 238, 0.83));
     display: flex;
     justify-content: center;
@@ -657,6 +671,33 @@ transition:.6s;
     display: flex;
     flex-direction: column;
   }
+  .div-bas-header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+    .bas-header-gauche{
+      width: 100%;
+    }
+    .bas-header-droite{
+      width: 100%;
+    }
+    .bas-header-gauche p {
+      width: 90%;
+      text-align: center;
+      margin-top: 15px;
+    }
+    .bas-header-gauche h3{
+      width: 80%;
+      text-align: center;
+    }
+    .avatar-bg{
+      width: 90%;
+    }
+    .pngg{
+      width: 60%;
+    }
 }
 @media (max-width: 320px) {
   .card-service{
@@ -680,6 +721,9 @@ transition:.6s;
   }
   .section-slider-card-home {
     height: 320vh;
+  }
+  .service-card-home {
+    height: 70%;
   }
 }
 .card-s-head{
@@ -827,5 +871,13 @@ cursor: pointer;
   text-align: center;
  }
 /* =============FIN CARD================ */
+/* CSS */
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.7s ease-in-out;
+}
 
+.fade-in.show {
+  opacity: 1;
+}
 /* ========================Fin============================= */

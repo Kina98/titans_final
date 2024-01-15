@@ -1,8 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* font-family: 'Quicksand', sans-serif; */
 /* body {
     background: #5CA3DC;
 } */
 article {
     border-radius: 10px !important;
+    font-family: 'Quicksand', sans-serif;
 }
 article img {
     border-radius: 10px;
@@ -10,15 +15,15 @@ article img {
 
 header {
     width: 100%;
-    height: 50vh;
+    height: 100vh;
     background-image:
-      linear-gradient(to bottom, rgba(86, 222, 235, 0.95), rgba(50, 144, 237, 0.815)),
-      url(/image/technology-circle-blue-background-digital-transformation-concept.jpg);
+      linear-gradient(to bottom, rgba(86, 222, 235, 0.15), rgba(50, 144, 237, 0.715)),
+      url(/images/african-american-man-using-laptop-entertainment.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
     background-position: center;
-    background-size: 100% auto;
+    background-size: cover;
     position: relative;
+    font-family: 'Quicksand', sans-serif;
 }
 .sommes {
     height: 50%;

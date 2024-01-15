@@ -124,3 +124,16 @@ function typeEffect(element, speed) {
     element: $('.wrap--3'),
     tiltEffect: 'reverse'
   });
+
+/*   ============================= */
+// JavaScript with ScrollMagic
+document.addEventListener('DOMContentLoaded', function () {
+  const controller = new ScrollMagic.Controller();
+
+  const scene = new ScrollMagic.Scene({
+      triggerElement: '.your-trigger-element',
+      reverse: false, // Change to true if you want the animation to reverse on scrolling up
+  })
+  .setTween(TweenMax.from('.your-animated-element', 1, { opacity: 0, y: 50 }))
+  .addTo(controller);
+});

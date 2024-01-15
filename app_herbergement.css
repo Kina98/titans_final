@@ -550,3 +550,219 @@ border-radius: 5px;}
     .inputbox input:valid~span{transform: translateX(-0px) translateY(-15px);
   font-size: 12px}.pay button{height: 47px;
   border-radius: 37px}
+
+
+/* =================== Mise en form de palrtie footer ========================= */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+footer {
+  width: 100%;
+  background-color: #fff;
+  width: 90vw;
+  border-radius: 17px 17px 0px 0px;
+}
+
+.bas {
+  height: 50px;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #999;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.reseau {
+  display: flex;
+  align-items: center;
+}
+
+.reseau a {
+  margin: 0px 5px;
+  font-size: 30px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.eva i {
+  font-size: 18px;
+
+}
+
+.eva {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.vailde-evaluation {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+}
+
+.haut {
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.infos li {
+  list-style-type: none;
+  font-size: 13px;
+}
+
+.infos h2 {
+  font-size: 23px;
+}
+
+.logo-footer {
+  width: 18vw;
+}
+
+.copyright {
+  margin-right: 10px;
+  font-size: 14px;
+  color: #1c3c7a;
+}
+
+.social-footer span a {
+  font-size: 18px;
+  margin-left: 9px;
+}
+
+.etoile {
+  color: rgb(248, 205, 51);
+}
+
+@media (max-width:768px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  footer {
+    width: 90vw;
+
+  }
+
+  .logo-footer {
+    width: 24vw;
+  }
+
+  .haut {
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 30rem;
+  }
+
+  .reseau {
+    justify-content: space-evenly;
+  }
+
+  .title {
+    font-size: 13px;
+
+  }
+
+  .social-footer span a {
+    font-size: 15px;
+    margin-left: 0px;
+  }
+
+  .copyright {
+    margin-right: 6px;
+    font-size: 10px;
+  }
+
+  .eva i {
+    font-size: 10px;
+  }
+
+  .eva {
+    font-size: 10px;
+    width: 40%;
+  }
+
+  .infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    border-left: 1px solid #1c3c7a;
+  }
+
+  .bas {
+    height: 50px;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1), inset -5px -5px 5px rgba(255, 255, 255, 0.2), 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid #999;
+  }
+}
+
+@media (max-width:425px) {
+  .bas {
+    height: auto;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .eva {
+    width: 70%;
+  }
+
+  .reseau {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    width: 80%;
+  }
+
+  .infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    border-left: 1px solid #1c3c7a;
+  }
+
+  .logo-footer {
+    width: 130px;
+  }
+
+  .copyright {
+    margin-top: 2px;
+    font-size: 9px;
+
+  }
+}
+
+/* ========================Fin============================= */

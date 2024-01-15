@@ -17,12 +17,12 @@ body{
     position: relative;
     top: 5rem;
     width: 60%;
-    border-right: 10px solid #bb328d;
-    border-bottom: 10px solid #bb328d;
+    border-right: 10px solid #fff;
+    border-bottom: 10px solid #2F87CE;
     border-radius: 90%;
 }
 .favicon{
-    background-color: #c29dc4;
+    background-color: #2F87CE;
     padding: 2rem;
    text-align: center;
 }
@@ -48,16 +48,16 @@ p{
  font-weight: bold;
 }
 p{
- font-size: 1.1rem;
+ font-size: 15px;
  color: black;
  font-weight: bold;
- width: 320px;
+ width: 95%;
 }
 .corps-5{
     position: relative;
 }
 h3{
-    padding-top: 3rem;
+    padding-top: 4rem;
     font-weight: 700;
     font-size: 1.5rem;
 }
