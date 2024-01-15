@@ -60,24 +60,3 @@ document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("touchend", dragStop);
 
 /* =====================Scoll animation ================== */
-// JavaScript
-document.addEventListener('DOMContentLoaded', function () {
-    const elements = document.querySelectorAll('.fade-in');
-
-    function fadeInElements() {
-        elements.forEach(element => {
-            const rect = element.getBoundingClientRect();
-            const windowHeight = window.innerHeight;
-
-            if (rect.top <= windowHeight / 1.5) {
-                element.classList.add('show');
-            }
-        });
-    }
-
-    window.addEventListener('scroll', fadeInElements);
-    window.addEventListener('resize', fadeInElements);
-
-    // Initial check in case some elements are already in view on page load
-    fadeInElements();
-});
